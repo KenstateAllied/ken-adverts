@@ -34,28 +34,28 @@ export default function App() {
         <nav style={{position: "fixed", top: 0, left: 0, right: 0, zIndex: 100}}>
           <ul className="nav">
             <li className="logo">
-              <Link to="/" className="links">React <span style={{fontStyle: "italic"}}>FAST</span> Marquee</Link>
+              <Link to="/" className="links">KENSTATE <span style={{fontStyle: "italic"}}>DIGITAL</span> WORKS</Link>
             </li>
             <li>
-              <Link to="/documentation" className="links">Documentation</Link>
+              <Link to="/documentation" className="links">WHAT WE OFFER</Link>
             </li>
             <li>
-              <Link to="/demo" className="links">Demo</Link>
+              <Link to="/demo" className="links">PRODUCTS</Link>
             </li>
             
             <li style={{float: "right"}}>
               <a className="website-links" href="https://yarnpkg.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                Yarn
+                About Us
               </a>
             </li>
             <li style={{float: "right"}}>
               <a className="website-links" href="http://npmjs.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                npm
+                Company Website
               </a>
             </li>
             <li style={{float: "right"}}>
               <a className="website-links" href="https://github.com/justin-chu/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                GitHub
+                Contacts
               </a>
             </li>
           <button style={{marginRight: 10}} className="mobile-button" onClick={() => setMenu(true)}>
@@ -74,13 +74,13 @@ export default function App() {
               
               <div style={{borderTop: "1.5px solid #2e353b", margin: "20px 0"}} />
               <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://github.com/justin-chu/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                GitHub
+                About Us
               </a>
               <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="http://npmjs.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                npm
+                Company Website
               </a>
               <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://yarnpkg.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
-                Yarn
+                Contacts
               </a>
             </div>
           </Drawer>
@@ -98,7 +98,7 @@ export default function App() {
           </Route>
         </Switch>
         <footer>
-          <p className="footer-text">© 2020 Justin Chu. All rights reserved.</p>
+          <p className="footer-text">© 2025 Kenstate Allied. All rights reserved.</p>
         </footer>
       </div>
     </Router>

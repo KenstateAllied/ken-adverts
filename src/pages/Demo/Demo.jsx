@@ -11,7 +11,7 @@ function Demo () {
   const [pauseOnClick, setPauseOnClick] = React.useState(false)
   const [autofill, setAutofill] = React.useState(true)
   const [direction, setDirection] = React.useState("left")
-  const [speed, setSpeed] = React.useState(30)
+  const [speed, setSpeed] = React.useState(60)
   const [delay, setDelay] = React.useState(0)
   const [loop, setLoop] = React.useState(0)
   const [gradient, setGradient] = React.useState(true)
