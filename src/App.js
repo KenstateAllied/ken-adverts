@@ -44,17 +44,17 @@ export default function App() {
             </li>
             
             <li style={{float: "right"}}>
-              <a className="website-links" href="https://yarnpkg.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a className="website-links" href="https://graphics.kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 About Us
               </a>
             </li>
             <li style={{float: "right"}}>
-              <a className="website-links" href="http://npmjs.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a className="website-links" href="http://kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 Company Website
               </a>
             </li>
             <li style={{float: "right"}}>
-              <a className="website-links" href="https://github.com/justin-chu/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a className="website-links" href="https://freelance.kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 Contacts
               </a>
             </li>
@@ -73,13 +73,13 @@ export default function App() {
               <Link onClick={() => setMenu(false)} style={{fontSize: 20}} to="/demo" className="links">Demo</Link>
               
               <div style={{borderTop: "1.5px solid #2e353b", margin: "20px 0"}} />
-              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://github.com/justin-chu/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://graphics.kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 About Us
               </a>
-              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="http://npmjs.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="http://kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 Company Website
               </a>
-              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://yarnpkg.com/package/react-fast-marquee" target="_blank" rel="noopener noreferrer">
+              <a onClick={() => setMenu(false)} style={{fontSize: 20, marginBottom: 10}} className="website-links" href="https://freelance.kenstate.co.ke" target="_blank" rel="noopener noreferrer">
                 Contacts
               </a>
             </div>
