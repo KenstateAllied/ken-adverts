@@ -34,7 +34,7 @@ export default function App() {
         <nav style={{position: "fixed", top: 0, left: 0, right: 0, zIndex: 100}}>
           <ul className="nav">
             <li className="logo">
-              <Link to="/" className="links">KENSTATE <span style={{fontStyle: "italic"}}>DIGITAL</span> WORKS</Link>
+              <Link to="/" className="links">KENSTATE <span style={{fontStyle: "italic"}}>DIGITAL</span> Tel/ WhatsApp +254724052417</Link>
             </li>
             <li>
               <Link to="/documentation" className="links">WHAT WE OFFER</Link>

@@ -1,58 +1,43 @@
 export const SliderItems = [
   {
-    src: "microsoft.png",
-    alt: "Microsoft",
+    src: "booking.jpg",
+    alt: "Bookings",
   },
   {
-    src: "ibm.png",
-    alt: "IBM",
+    src: "burger.jpg",
+    alt: "Food",
   },
   {
-    src: "hp.png",
-    alt: "HP",
+    src: "cocacola.jpg",
+    alt: "Beverages",
   },
   {
-    src: "princeton.png",
-    alt: "Princeton",
+    src: "dairy.jpeg",
+    alt: "Business",
   },
   {
-    src: "mit.png",
-    alt: "MIT",
+    src: "dorper.jpeg",
+    alt: "Farming",
   },
   {
-    src: "cisco.png",
-    alt: "Cisco",
+    src: "eka.jpeg",
+    alt: "Hospitality",
   },
   {
-    src: "nasa.png",
-    alt: "NASA",
+    src: "fashion.jpg",
+    alt: "Fashion",
   },
   {
-    src: "us_navy.png",
-    alt: "US Navy",
+    src: "show.jpeg",
+    alt: "ASK",
   },
   {
-    src: "us_army.png",
-    alt: "US Army",
+    src: "suv.jpg",
+    alt: "Cars",
   },
   {
-    src: "dell.png",
-    alt: "Dell",
-  },
-  {
-    src: "pennsylvania.png",
-    alt: "University of Pennsylvania",
-  },
-  {
-    src: "boeing.png",
-    alt: "Boeing",
-  },
-  {
-    src: "bbc.png",
-    alt: "BBC",
-  },
-  {
-    src: "lucasfilm.png",
-    alt: "LucasFilm",
-  },
+    src: "superbowl.png",
+    alt: "Sports",
+  }
+  
 ];

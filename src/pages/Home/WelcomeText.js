@@ -1,68 +1,30 @@
 export const WelcomeText = [
   {
-    text: "Welcome"
+    text: "Search Engine Optimization"
   },
   {
-    text: "Bienvenue"
+    text: "Search Engine Marketing "
   },
   {
-    text: "欢迎"
+    text: "Social Media Marketing"
   },
   {
-    text: "Bienvenido"
+    text: "Content Marketing"
   },
   {
-    text: "Benvenuto"
+    text: "Email Marketing"
+
   },
   {
-    text: "أهلا بك"
+    text: "Affiliate Marketing"
   },
   {
-    text: "Bem-vindo"
+    text: "Influencer Marketing"
   },
   {
-    text: "Välkommen"
+    text: "Marketing Analytics"
   },
-  {
-    text: "ようこそ"
-  },
-  {
-    text: "Hoş geldin"
-  },
-  {
-    text: "Bine ati venit"
-  },
-  {
-    text: "ברוך הבא"
-  },
-  {
-    text: "Witaj"
-  },
-  {
-    text: "어서 오십시오"
-  },
-  {
-    text: "Selamat datang"
-  },
-  {
-    text: "Добро пожаловать"
-  },
-  {
-    text: "ਸਵਾਗਤ ਹੈ"
-  },
-  {
-    text: "Kaabo"
-  },
-  {
-    text: "Welkom"
-  },
-  {
-    text: "Chào mừng"
-  },
-  {
-    text: "Maligayang pagdating"
-  },
-  {
-    text: "καλως ΗΡΘΑΤΕ"
-  },
+ 
+ 
+  
 ]

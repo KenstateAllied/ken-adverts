@@ -21,8 +21,8 @@ function Demo () {
   return (
     <div style={{marginTop: 100}}>
       <div style={{fontWeight: "bold", textAlign: "center", fontSize: 24, marginBottom: 20}}>
-        <button className={index === 0 ? "marquee-button-selected" : "marquee-button"} onClick={() => setIndex(0)}><h1>Images</h1></button>
-        <button className={index === 1 ? "marquee-button-selected" : "marquee-button"} onClick={() => setIndex(1)}><h1>Text</h1></button>
+        <button className={index === 0 ? "marquee-button-selected" : "marquee-button"} onClick={() => setIndex(0)}><h1>Adverts</h1></button>
+        <button className={index === 1 ? "marquee-button-selected" : "marquee-button"} onClick={() => setIndex(1)}><h1>News Ticker</h1></button>
         <button className={index === 2 ? "marquee-button-selected" : "marquee-button"} onClick={() => setIndex(2)}><h1>Cards</h1></button>
       </div>
       <div className="demo-marquee">
@@ -31,7 +31,7 @@ function Demo () {
           {index === 0 && SliderItems.map((item, index) => {
             return (
             <img src={require(`../../assets/images/${item.src}`)}
-              height={50}
+              height={200}
               style={{margin: "0 40px", marginTop: 80}}
               alt={item.alt} key={index} />
             );
@@ -47,8 +47,7 @@ function Demo () {
               <div className="card" style={{display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center"}}>
                 <img alt="" src="https://cdn.iconscout.com/icon/free/png-256/avatar-369-456321.png" width={100} height={100} style={{ borderRadius: 15}}/>
                 <p style={{marginTop: 5, marginBottom: 0}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                  labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  Social & Digital Marketing
                 </p>
               </div>
             </>
